@@ -1,0 +1,28 @@
+#:kivy 1.0.7
+
+<MenuScreen>:
+    BoxLayout:
+    	orientation: 'vertical'
+    	padding: [2,2,2,2]
+
+        Label:
+            text: root.label
+
+        BoxLayout:
+        	orientation: 'horizontal'
+        	Button:
+        		text: 'Add New Terms'
+        		on_press: root.manager.current = 'add_terms'
+        	Button:
+            	text: 'Quit'
+
+<AddTermsScreen>:
+    BoxLayout:
+    	orientation: 'vertical'
+    	padding: [2,2,2,2]
+
+        TextInput:
+            multiline: False
+        Button:
+            text: 'Back to menu'
+            on_press: root.manager.current = 'menu'

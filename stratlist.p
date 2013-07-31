@@ -25,5 +25,10 @@ aVHonor core priorities
 p13
 aVset a tripwire
 p14
-aS''
+aVIs there a Pareto optimum?
+p15
+aVPerhaps this is a good situation to ask someone else?
+p16
+aVIf this is not that important, System 1 may suffice
+p17
 a.

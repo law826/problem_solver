@@ -116,12 +116,12 @@ Builder.load_string("""
                 id: add_button_id
                 text: 'Add Term'
                 on_press: root.AddTerm(txti.text); self.focus= True
-            Button:
-                text: 'Delete Item'
-                on_press: root.DeleteTerm()
             Button: 
                 text: 'Change Theme'
                 on_press: root.change_theme()
+            Button:
+                text: 'Delete Item'
+                on_press: root.DeleteTerm()
             Button:
                 text: 'Back to Main'
                 on_press: root.manager.current = 'main'

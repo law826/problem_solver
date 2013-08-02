@@ -9,55 +9,52 @@ p4
 sS'dbdict'
 p5
 (dp6
-S'Setup'
+VMotivation
 p7
 (lp8
-sVReading
+Vglycemic status?
 p9
-(lp10
-sVMotivation
+aVbigger picture?
+p10
+asVReading
 p11
 (lp12
-Vglycemic status?
-p13
-aVbigger picture?
-p14
-asg4
-(lp15
+sg4
+(lp13
 VThink of a good analogy
-p16
+p14
 aVHas anyone done this before?
-p17
+p15
 aVWhat are the relevant strengths?
-p18
+p16
 aVConfirmation bias?
-p19
+p17
 aVPre-mortem assessment?
-p20
+p18
 aVIs the question worth considering in the first place?
-p21
+p19
 aVIs the frame too narrow?
-p22
+p20
 aVConsider the opposite
-p23
+p21
 aVZoom out, zoom in
-p24
+p22
 aVOooch
-p25
+p23
 aVOvercome short-term emotion
-p26
+p24
 aVHonor core priorities
-p27
+p25
 aVSet a tripwire
-p28
+p26
 aVIs there a Pareto optimum?
-p29
+p27
 aVPerhaps this is a good situation to ask someone else?
-p30
+p28
 aVIf not important, System 1 may suffice
-p31
+p29
 aVCan the problem be split into smaller parts?
-p32
+p30
 aVCome back to the problem later.
-p33
+p31
 assb.

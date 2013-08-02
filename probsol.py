@@ -180,10 +180,11 @@ class SettingsScreen(Screen):
         if self.cm == True:
             bl = BoxLayout()
             btn1 = Button(text='yes')
+            db.current_selection = self.list_view.adapter.selection[0].text
 
             def btn1press(self):
-                import pdb; pdb.set_trace()
-                del db.sd.dbdict[self.list_view.adapter.selection[0].text]
+                del db.sd.dbdict[db.current_selection]
+                popup.dismiss()
 
             btn1.bind(on_press=btn1press)
             btn2 = Button(text='no')
@@ -194,10 +195,16 @@ class SettingsScreen(Screen):
             btn2.bind(on_press=btn2press)
             bl.add_widget(btn1)
             bl.add_widget(btn2)
-            popup = Popup(title='Warning',
+
+            def pdismiss(self):
+                ss.list_contents = db.sd.dbdict.keys()
+                db.Save()
+                
+            popup = Popup(title='Warning: Do you sure you want to delete %s?' % self.list_view.adapter.selection[0].text,
                 content=bl,
                 auto_dismiss=False,
-                size_hint=(0.6, 0.6)
+                size_hint=(0.6, 0.6),
+                on_dismiss = pdismiss               
                 )
             popup.open()
         elif self.cm == False:
@@ -206,7 +213,7 @@ class SettingsScreen(Screen):
             except:
                 pass
             self.list_contents = db.sd.dbdict[db.sd.theme]
-        db.Save()
+        
         #self.list_view.adapter.bind(on_selection_change=self.selection_changed)
 
     def change_theme(self):
@@ -223,6 +230,11 @@ class SettingsScreen(Screen):
        # self.list_view.adapter.bind(on_selection_change=self.selection_changed)
         db.Save()
 
+class MyPopup(Popup):
+    def __init__(self, **kwargs):
+        super(MyPopup, self).__init__(**kwargs)
+
+
 #####
 
 # Create the manager
@@ -230,8 +242,10 @@ sm = ScreenManager()
 # Set up functionality to set up the key of the dictionary when the program first launches.
 if db.sd.theme == 'Setup':
     sm.add_widget(InitializeScreen(name='initialize'))
-sm.add_widget(MainScreen(name='main'))
-sm.add_widget(SettingsScreen(name='settings'))
+ms = MainScreen(name='main')
+ss = SettingsScreen(name='settings')
+sm.add_widget(ms)
+sm.add_widget(ss)
 #####
 
 # The main app:

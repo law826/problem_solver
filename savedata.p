@@ -15,44 +15,49 @@ p7
 sVReading
 p9
 (lp10
-sg4
-(lp11
-VThink of a good analogy
-p12
-aVHas anyone done this before?
+sVMotivation
+p11
+(lp12
+Vglycemic status?
 p13
-aVWhat are the relevant strengths?
+aVbigger picture?
 p14
-aVConfirmation bias?
-p15
-aVWhat would be the pre-mortem assessment on this issue?
+asg4
+(lp15
+VThink of a good analogy
 p16
-aVIs the question worth considering in the first place?
+aVHas anyone done this before?
 p17
-aVIs the frame too narrow?
+aVWhat are the relevant strengths?
 p18
-aVConsider the opposite
+aVConfirmation bias?
 p19
-aVZoom out, zoom in
+aVPre-mortem assessment?
 p20
-aVOoch
+aVIs the question worth considering in the first place?
 p21
-aVOvercome short-term emotion
+aVIs the frame too narrow?
 p22
-aVHonor core priorities
+aVConsider the opposite
 p23
-aVSet a tripwire
+aVZoom out, zoom in
 p24
-aVIs there a Pareto optimum?
+aVOooch
 p25
-aVPerhaps this is a good situation to ask someone else?
+aVOvercome short-term emotion
 p26
-aVIf this is not that important, System 1 may suffice
+aVHonor core priorities
 p27
-aVIs there a relevant subquestion to ask?
+aVSet a tripwire
 p28
-aVCan the problem be split into smaller parts?
+aVIs there a Pareto optimum?
 p29
-aVCome back to the problem later.
+aVPerhaps this is a good situation to ask someone else?
 p30
+aVIf not important, System 1 may suffice
+p31
+aVCan the problem be split into smaller parts?
+p32
+aVCome back to the problem later.
+p33
 assb.

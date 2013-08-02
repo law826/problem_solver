@@ -145,7 +145,7 @@ class MainScreen(Screen):
         self.label.text = "Welcome"
 
     def NewTerm(self):
-        self.label.text = choice(db.sd.dbdict[theme])
+        self.label.text = choice(db.sd.dbdict[db.sd.theme])
 
     def Exit(self):
         import sys; sys.exit()
@@ -199,7 +199,7 @@ class SettingsScreen(Screen):
             def pdismiss(self):
                 ss.list_contents = db.sd.dbdict.keys()
                 db.Save()
-                
+
             popup = Popup(title='Warning: Do you sure you want to delete %s?' % self.list_view.adapter.selection[0].text,
                 content=bl,
                 auto_dismiss=False,

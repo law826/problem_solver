@@ -16,45 +16,70 @@ Vglycemic status?
 p9
 aVbigger picture?
 p10
-asVReading
+aVwhat is the problem?
 p11
-(lp12
-sg4
+asVReading
+p12
 (lp13
-VThink of a good analogy
+VHave a dialogue with the reading
 p14
-aVHas anyone done this before?
+aVOutline the reading first
 p15
-aVWhat are the relevant strengths?
+aVWhat question do you have?
 p16
-aVConfirmation bias?
+aVWhat is this related to?
 p17
-aVPre-mortem assessment?
+aVreduce distractions
 p18
-aVIs the question worth considering in the first place?
-p19
-aVIs the frame too narrow?
+asg4
+(lp19
+VThink of a good analogy
 p20
-aVConsider the opposite
+aVHas anyone done this before?
 p21
-aVZoom out, zoom in
+aVWhat are the relevant strengths?
 p22
-aVOooch
+aVConfirmation bias?
 p23
-aVOvercome short-term emotion
+aVPre-mortem assessment?
 p24
-aVHonor core priorities
+aVIs the question worth considering in the first place?
 p25
-aVSet a tripwire
+aVIs the frame too narrow?
 p26
-aVIs there a Pareto optimum?
+aVConsider the opposite
 p27
-aVPerhaps this is a good situation to ask someone else?
+aVZoom out, zoom in
 p28
-aVIf not important, System 1 may suffice
+aVOooch
 p29
-aVCan the problem be split into smaller parts?
+aVOvercome short-term emotion
 p30
-aVCome back to the problem later.
+aVHonor core priorities
 p31
+aVSet a tripwire
+p32
+aVIs there a Pareto optimum?
+p33
+aVPerhaps this is a good situation to ask someone else?
+p34
+aVIf not important, System 1 may suffice
+p35
+aVCan the problem be split into smaller parts?
+p36
+aVCome back to the problem later.
+p37
+asVWriting
+p38
+(lp39
+VTell a good story
+p40
+aVThink about what the reader is thinking
+p41
+aVActivate your verbs
+p42
+aVPrefer the simple over the technical
+p43
+aVBegin sentences with subjects and verbs: make meaning early, then let weaker elements branch to the right
+p44
 assb.
